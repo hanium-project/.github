@@ -107,7 +107,7 @@
     - Install redis
     - run `SpringBootApplication.java` in IntelliJ IDEA
 
-### 2) run on Docker environment
+### 2) run on Docker container
 1. Clone this project
     
     ```
