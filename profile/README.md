@@ -1,6 +1,8 @@
 
-## :police_car: 실시간 위치 기반 셀프 경호 어플리케이션 [Police-in-my-pocket] <br/>
-저희 Police-in-my-pocket은 긴급 상황 인식 및 자동 알림 신고 기능이 있는 스마트 경호 어플리케이션입니다. 사용자가 출발지와 목적지를 입력하고 확인 버튼을 클릭하면, 경로 및 실시간 위치를 추적합니다. 이때, 긴급 상황이 발생하여 사용자가 직접 신고하거나 AI 모델이 사용자의 비명 소리를 인식하면 자동으로 신고가 발동합니다.
+## :police_car: 실시간 위치 기반 셀프 경호 어플리케이션 [Police-in-my-pocket]<br/>
+- 저희 Police in my pocket은 긴급 상황 인식 및 자동 알림 신고 기능이 있는 스마트 경호 어플리케이션입니다.
+- 사용자가 출발지와 목적지를 입력하고 확인 버튼을 클릭하면, 경로 및 실시간 위치를 추적합니다.
+- 긴급 상황이 발생하여 사용자가 직접 신고하거나 AI 모델이 사용자의 비명 소리를 인식하면 자동으로 신고가 발동합니다.
 
 ## Tech Stack
 <img width="852" alt="스크린샷 2022-11-13 오전 12 08 30" src="https://user-images.githubusercontent.com/96467030/201482634-43b6ec56-6745-494f-9f17-149fcae222b8.png">
@@ -42,8 +44,15 @@
   ![image09](https://user-images.githubusercontent.com/104436038/204981772-9982111e-a182-46bf-9d88-3fe1a1bef13f.png)
 
   긴급 상황이 발생하여 신고가 되면 등록된 지인에게 신고 문자가 발송된다.
-  
-  
+
+## Contributor
+
+| Name    | 유희진   |  문지영   | 장세은 |  손효정    |
+| ------- | -------| ---------| ----- | -------- |
+| Profile | <img width="200px" src="https://avatars.githubusercontent.com/u/96467030?v=4" />   | <img width="200px" src="https://avatars.githubusercontent.com/u/104436038?v=4" />  | <img width="200px" src="https://avatars.githubusercontent.com/u/78543382?v=4"/>    | <img width="200px" src="https://avatars.githubusercontent.com/u/81282601?v=4">  |
+| Role    | Team Leader, Frontend, Backend, DevOps  | Frontend, DevOps | Frontend, Backend   | Frontend |
+| gitHub  | [yu-heejin](https://github.com/yu-heejin) | [ziyoungmoon](https://github.com/ziyoungmoon)   | [isprogrammingfun](https://github.com/isprogrammingfun)                        | [hyooojing](https://github.com/hyooojing)   |
+
 ## How to Install and run this project
 ### 1) run on Local environment
 
