@@ -53,7 +53,8 @@
 
   긴급 상황이 발생하여 신고가 되면 등록된 지인에게 신고 문자가 발송된다.
   
-  ## How to Install and run this project
+  
+## How to Install and run this project
 
 ### 1) run on Local environment
 
