@@ -52,4 +52,103 @@
   ![image09](https://user-images.githubusercontent.com/104436038/204981772-9982111e-a182-46bf-9d88-3fe1a1bef13f.png)
 
   긴급 상황이 발생하여 신고가 되면 등록된 지인에게 신고 문자가 발송된다.
+  
+  ## How to Install and run this project
+
+### 1) run on Local environment
+
+1. Clone this project
+    
+    ```
+    git clone https://github.com/hanium-project/Police-in-my-pocket.git
+    ```
+    
+2. Frontend
+    1. node module install
+        
+        ```
+        npm install (--legacy-peer-deps)
+        ```
+        
+    2. custom font link
+        
+        ```
+        npx react-native link
+        
+        ```
+        
+    3. Android run
+        
+        ```
+        npm run android
+        
+        ```
+        
+    4. iOS run
+        
+        ```
+        cd ios
+        pod install
+        cd ..
+        npm run ios
+        
+        ```
+        
+3. Backend
+    - change datasource url in application.yml
+        
+        ```
+        datasource:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            url: jdbc:mysql://localhost:3307/polin   # 3307 -> 3306
+            username: {USER_NAME}
+            password: {USER_PASSWORD}
+        ```
+        
+    - Install redis
+    - run `SpringBootApplication.java` in IntelliJ IDEA
+
+### 2) run on Docker environment
+
+1. Clone this project
+    
+    ```
+    git clone https://github.com/hanium-project/Police-in-my-pocket.git
+    ```
+    
+2. Frontend
+    1. node module install
+        
+        ```
+        npm install (--legacy-peer-deps)
+        ```
+        
+    2. custom font link
+        
+        ```
+        npx react-native link
+        ```
+        
+    3. Android run
+        
+        ```
+        npm run android
+        ```
+        
+    4. iOS run
+        
+        ```
+        cd ios
+        pod install
+        cd ..
+        npm run ios
+        ```
+        
+3. Backend
+    - ./gradlew clean build
+    - docker-compose build
+        
+        ```
+        docker-compose up -d --build
+        ```
 
