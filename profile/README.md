@@ -7,43 +7,48 @@
 ## Tech Stack
 <img width="852" alt="스크린샷 2022-11-13 오전 12 08 30" src="https://user-images.githubusercontent.com/96467030/201482634-43b6ec56-6745-494f-9f17-149fcae222b8.png">
  
-## 앱 개발 및 실행 화면
+## 앱 개발 및 실행 화면 
+- 로그인
+
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987042-e3a25c5b-69df-48dc-b610-6968cf2ce7eb.png" width="200" height="300"/><p>
+  
+  
+- 회원가입
+
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987054-3e26bb6d-8f89-4f7e-9979-e5c66c5ba66b.png" width="200" height="300"/><p>
+
+
+- 메뉴 화면
+
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987059-4ec9a454-c428-4b94-b46c-0ea09ccd6abe.png" width="200" height="300"/><p>
+
 
 - 위치 기반 서비스(LBS)
 
-  ![image01](https://user-images.githubusercontent.com/104436038/204981509-aa688713-49c6-4365-ab9d-ed1cc8d8dffc.png)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204986656-80096c49-6a76-46bd-a9cb-4afd1cb825df.png" width="200" height="300"/><p>
   GPS 신호와 구글 지도 API를 사용하여 사용자의 실시간 위치를 추적한다. 위급 상황 발생 시 사용자의 위치를 등록된 지인에게 메시지를 보내는 위치 기반 서비스(LBS) 기능을 제공한다.
 
 - 주요 연락처 등록
 
-  ![image02](https://user-images.githubusercontent.com/104436038/204981644-77595564-21a3-447f-9671-abca096f3b5a.png)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987090-f2cb42f5-be05-470a-b190-545b59597244.png" width="200" height="300"/><p>
   사용자가 귀갓길에 앱을 실행하여 위급 상황이 발생했을 때, 메시지를 전송할 가족 또는 지인의 이름과 문자를 주요 연락처로 설정할 수 있도록 한다. 
-
+  
+  
 - 검색 및 등록 서비스
 
-  ![image03](https://user-images.githubusercontent.com/104436038/204981657-2bfab596-2ddf-4c9b-b047-2f1003ad0a47.png)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987076-7434b80a-f697-4d2e-a0da-e4281fc2ce6f.png" width="200" height="300"/><p>
   사용자가 앱을 이용하기 위해서 내리는 마지막 정거장과 사용자의 목적지까지의 정보가 필요하므로 사전에 등록할 수 있도록 한다.
+
 
 - 검색 서비스
 
-  ![image08](https://user-images.githubusercontent.com/104436038/204981750-254b9710-e2a1-4c47-ab4b-97f64dd30123.png)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204981750-254b9710-e2a1-4c47-ab4b-97f64dd30123.png" width="200" height="300"/><p>
   구글에서 제공하는 place API를 사용하여 버스 정류장과 지하철역 등 주소 정보를 쉽게 검색할 수 있도록 한다.
 
+
 - 안심 귀가 서비스
-
-  ![image07](https://user-images.githubusercontent.com/104436038/204981713-62b7ff9a-42f9-411a-a304-2cb2bb1e567e.png)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987102-92142f9b-c7cb-48b9-b82a-e3f8939a2eaa.png" width="200" height="300"/><p>
   이용자의 현재 위치는 빨산색, 출발지 위치는 노란색, 도착지는 파란색 마커를 사용하여 가독성을 높일 수 있도록 한다. 
-
-- 문자 서비스
-
-  ![image09](https://user-images.githubusercontent.com/104436038/204981772-9982111e-a182-46bf-9d88-3fe1a1bef13f.png)
-
-  긴급 상황이 발생하여 신고가 되면 등록된 지인에게 신고 문자가 발송된다.
 
 ## Contributor
 
