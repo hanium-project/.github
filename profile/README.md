@@ -49,6 +49,93 @@
 - 안심 귀가 서비스
 <p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987102-92142f9b-c7cb-48b9-b82a-e3f8939a2eaa.png" width="200" height="300"/><p>
   이용자의 현재 위치는 빨산색, 출발지 위치는 노란색, 도착지는 파란색 마커를 사용하여 가독성을 높일 수 있도록 한다. 
+ 
+## Project Structure
+
+### Frontend
+
+```
+.
+├── App.js
+├── android/
+├── app.json
+├── index.js
+├── ios/
+├── node_modules/
+├── package.json
+├── assets/          // 각종 자원을 모아놓은 폴더
+│   ├── images/
+│   ├── sounds/
+│   └── fonts/
+├── src/        // 소스 코드를 모아놓은 폴더
+│   ├── screens/       // 화면 단위의 코드
+│   ├── api/           // 기능 구현을 위한 코드
+│   ├── component/     // 재사용 가능한 컴포넌트 코드
+│   ├── tempdata/      // api 테스트를 위한 mock data
+│   └── styles/        // 스타일 코드
+├── configs/        // 각종 설정을 위한 폴더
+├── react-native.config.js       
+└── yarn.lock
+```
+
+### Backend
+
+- 도메인형 구조로 설계했습니다.
+
+```
+└── src
+    └── main
+       ├── java
+       │   └── com
+       │       └── pocket
+       │           └── police
+       │               ├── PoliceInMyPocketBackendApplication.java
+       │               ├── domain
+       │               │   ├── dangerlocation
+       │               │   │    ├── controller
+       │               │   │    ├── dto
+       │               │   │    ├── entity
+       │               │   │    ├── repository
+       │               │   │    └── service
+       │               │   ├── safelocation
+       │               │   │    ├── controller
+       │               │   │    ├── dto
+       │               │   │    ├── entity
+       │               │   │    ├── repository
+       │               │   │    └── service
+       │               │   ├── user
+       │               │   │    ├── controller
+       │               │   │    ├── dto
+       │               │   │    ├── entity
+       │               │   │    ├── repository
+       │               │   │    └── service
+       │               │   ├── usercontact
+       │               │   │    ├── controller
+       │               │   │    ├── dto
+       │               │   │    ├── entity
+       │               │   │    ├── repository
+       │               │   │    └── service
+       │               │   └── userlocation
+       │               │        ├── controller
+       │               │        ├── dto
+       │               │        ├── entity
+       │               │        ├── repository
+       │               │        └── service
+       │               │
+       │               └── global
+       │                   ├── common
+       │                   ├── config
+       │                   ├── security
+       │                   ├── service
+       │                   └── statusresponse
+       │               
+       └── resources
+            ├── application-email.yml
+            ├── application-message.yml
+            ├── application-mysql.yml
+            ├── prometheus.yml
+            └── application.yml
+``` 
 
 ## How to Install and run this project
 ### 1) run on Local environment
