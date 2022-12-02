@@ -50,14 +50,6 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987102-92142f9b-c7cb-48b9-b82a-e3f8939a2eaa.png" width="200" height="300"/><p>
   이용자의 현재 위치는 빨산색, 출발지 위치는 노란색, 도착지는 파란색 마커를 사용하여 가독성을 높일 수 있도록 한다. 
 
-## Contributor
-
-| Name    | 유희진   |  문지영   | 장세은 |  손효정    |
-| ------- | -------| ---------| ----- | -------- |
-| Profile | <img width="200px" src="https://avatars.githubusercontent.com/u/96467030?v=4" />   | <img width="200px" src="https://avatars.githubusercontent.com/u/104436038?v=4" />  | <img width="200px" src="https://avatars.githubusercontent.com/u/78543382?v=4"/>    | <img width="200px" src="https://avatars.githubusercontent.com/u/81282601?v=4">  |
-| Role    | Team Leader, Frontend, Backend, DevOps  | Frontend, DevOps | Frontend, Backend   | Frontend |
-| gitHub  | [yu-heejin](https://github.com/yu-heejin) | [ziyoungmoon](https://github.com/ziyoungmoon)   | [isprogrammingfun](https://github.com/isprogrammingfun)                        | [hyooojing](https://github.com/hyooojing)   |
-
 ## How to Install and run this project
 ### 1) run on Local environment
 
@@ -153,3 +145,10 @@
         docker-compose up -d --build
         ```
 
+## Contributor
+
+| Name    | 유희진   |  문지영   | 장세은 |  손효정    |
+| ------- | -------| ---------| ----- | -------- |
+| Profile | <img width="200px" src="https://avatars.githubusercontent.com/u/96467030?v=4" />   | <img width="200px" src="https://avatars.githubusercontent.com/u/104436038?v=4" />  | <img width="200px" src="https://avatars.githubusercontent.com/u/78543382?v=4"/>    | <img width="200px" src="https://avatars.githubusercontent.com/u/81282601?v=4">  |
+| Role    | Team Leader, Frontend, Backend, DevOps  | Frontend, DevOps | Frontend, Backend   | Frontend |
+| gitHub  | [yu-heejin](https://github.com/yu-heejin) | [ziyoungmoon](https://github.com/ziyoungmoon)   | [isprogrammingfun](https://github.com/isprogrammingfun)                        | [hyooojing](https://github.com/hyooojing)   |
