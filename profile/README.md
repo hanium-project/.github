@@ -5,11 +5,11 @@
 - 긴급 상황이 발생하여 사용자가 직접 신고하거나 AI 모델이 사용자의 비명 소리를 인식하면 자동으로 신고가 발동합니다.
 
 ## Contents
-[Tech Stack](#Tech-Stack)       
-[Demo](#Demo)       
-[Project Structure](#Project-Structure)       
-[How to Install and run this project](#How-to-Install-and-run-this-project)      
-[Contributor](#Contributor)
+- [Tech Stack](#Tech-Stack)       
+- [Demo](#Demo)       
+- [Project Structure](#Project-Structure)       
+- [How to Install and run this project](#How-to-Install-and-run-this-project)      
+- [Contributor](#Contributor)
 
 ## Tech Stack
 <img width="852" alt="스크린샷 2022-11-13 오전 12 08 30" src="https://user-images.githubusercontent.com/96467030/201482634-43b6ec56-6745-494f-9f17-149fcae222b8.png">
@@ -192,31 +192,7 @@
     ```
     
 2. Frontend
-    1. node module install
-        
-        ```
-        npm install (--legacy-peer-deps)
-        ```
-        
-    2. custom font link
-        
-        ```
-        npx react-native link
-        ```
-        
-    3. Android run
-        
-        ```
-        npm run android
-        ```
-        
-    4. iOS run
-        ```
-        cd ios
-        pod install
-        cd ..
-        npm run ios
-        ```
+    - Same as above.
         
 3. Backend
     - ./gradlew clean build
