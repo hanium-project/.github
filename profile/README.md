@@ -4,10 +4,17 @@
 - 사용자가 출발지와 목적지를 입력하고 확인 버튼을 클릭하면, 경로 및 실시간 위치를 추적합니다.
 - 긴급 상황이 발생하여 사용자가 직접 신고하거나 AI 모델이 사용자의 비명 소리를 인식하면 자동으로 신고가 발동합니다.
 
+## Contents
+[Tech Stack](#Tech-Stack)       
+[Demo](#Demo)       
+[Project Structure](#Project-Structure)       
+[How to Install and run this project](#How-to-Install-and-run-this-project)      
+[Contributor](#Contributor)
+
 ## Tech Stack
 <img width="852" alt="스크린샷 2022-11-13 오전 12 08 30" src="https://user-images.githubusercontent.com/96467030/201482634-43b6ec56-6745-494f-9f17-149fcae222b8.png">
  
-## 앱 개발 및 실행 화면 
+## Demo
 - 로그인
 <p align="center"><img src="https://user-images.githubusercontent.com/104436038/204987042-e3a25c5b-69df-48dc-b610-6968cf2ce7eb.png" width="200" height="350"/><p>
 
